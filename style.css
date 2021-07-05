@@ -5,13 +5,14 @@ body{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .sojol{
     width: 50%;
     padding-left: 5%;
+   
 }
 .sojol img{
     width: 80%;
@@ -36,4 +37,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#web-dev-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#baby-web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+.copyright{
+    text-align: center;
 }
