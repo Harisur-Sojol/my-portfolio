@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .sojol{
     width: 50%;
@@ -27,4 +28,12 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.color{
+    color: rebeccapurple;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
